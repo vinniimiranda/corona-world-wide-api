@@ -11,6 +11,7 @@
     "typescript": "^3.9.6"
   },
   "scripts": {
+    "build": "yarn tsc",
     "dev": "ts-node-dev --respawn --transpileOnly --ignore-watch node_modules --no-notify src/index.ts"
   },
   "devDependencies": {
